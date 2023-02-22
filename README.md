@@ -1,8 +1,8 @@
 # toml-config-example
 
 ```
-
 # default unless overridden by child settings
+
 [locale]
 audio = ja-JP
 subtitle = de-DE
