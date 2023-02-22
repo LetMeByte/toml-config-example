@@ -13,7 +13,7 @@ subtitle = "de-DE"
 # keep_subs = false
 
 [locale.archive]
-audio = [ ja-JP, en-US ]
+audio = [ "ja-JP", "en-US" ]
 keep_subs = true
 
 [locale.download]
