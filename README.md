@@ -1,8 +1,16 @@
-# crunchy-cli configuration file
+# crunchy-cli configuration reference
 
-## crunchy-cli.example.toml - a structural overview
+<!-- ## Table of Content -->
+<!-- Authentication -->
+<!-- Connection -->
+<!-- Locales -->
+<!-- Output -->
+
+A structural Overview
 
 ```toml
+# # crunchy-cli.example.toml
+
 [auth]
 method = "credentials"
 email = "spam@animail.jp"
