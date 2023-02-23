@@ -83,6 +83,4 @@ proxy = none
 retries = 0
 ```
 
-
-
 *The Crunchy-Labs Team does not endorse piracy, what you do with downloaded content is completely up to you!*
