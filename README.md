@@ -2,10 +2,12 @@
 
 ```toml
 [auth]
-login = [ "user@mail.com", "password123" ]
+# login = "anonymous"
+# login = [ "etp-rt", { token = "your-etp-refresh-token" } ]
+login = [ "credentials",  { email = "user@mail.com", password = "password123" } ]
 
 [connection]
-proxy = "socks5://1.2.3.4:123"
+proxy = "socks5://1.2.3.4:1234"
 
 [locale]
 audio = "ja-JP"
@@ -37,3 +39,5 @@ merge = "audio"
 resolution = "720p"
 skip_existing = true
 ```
+
+##
