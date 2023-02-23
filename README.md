@@ -9,7 +9,9 @@
 A structural Overview
 
 ```toml
-# # crunchy-cli.example.toml
+# # crunchy-cli.example.conf
+# # 
+# # DO NOT USE THIS FILE AS IS! COPY THIS FILE TO 'crunchy-cli.conf' AND ADJUST THE VALUES TO YOUR NEEDS!
 
 [auth]
 method = "credentials"
