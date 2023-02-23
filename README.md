@@ -6,7 +6,7 @@
 <!-- Locales -->
 <!-- Output -->
 
-## A structural Overview
+## Example Configuration
 
 ```toml
 [auth]
@@ -15,7 +15,7 @@ email = "spam@animail.jp"
 password = "iLOVEanime123"
 
 [connection]
-proxy = "socks5://1.2.3.4:1234"
+proxy = "socks5://proxy.host:8080"
 retries = 2
 
 [locale]
