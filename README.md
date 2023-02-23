@@ -9,12 +9,6 @@
 ## A structural Overview
 
 ```toml
-# # crunchy-cli.example.conf
-# # 
-# # Copy this file to 'crunchy-cli.conf' and
-# # configure it according to the
-# # configuration reference
-
 [auth]
 method = "credentials"
 email = "spam@animail.jp"
