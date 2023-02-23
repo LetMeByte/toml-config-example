@@ -1,13 +1,16 @@
-# toml-config-example
+# crunchy-cli configuration file
+
+## crunchy-cli.example.toml - a structural overview
 
 ```toml
 [auth]
-# login = "anonymous"
-# login = [ "etp-rt", { token = "your-etp-refresh-token" } ]
-login = [ "credentials",  { email = "user@mail.com", password = "password123" } ]
+method = "credentials"
+email = "spam@animail.jp"
+password = "iLOVEanime123"
 
 [connection]
 proxy = "socks5://1.2.3.4:1234"
+retries = 2
 
 [locale]
 audio = "ja-JP"
@@ -39,3 +42,38 @@ merge = "audio"
 resolution = "720p"
 skip_existing = true
 ```
+
+
+## Detailed Configuration
+
+### [auth] - Methods of Authentication
+
+
+
+```toml
+[auth]
+method = "credentials"
+email = "spam@animail.jp"
+password = "iLOVEanime123"
+```
+
+```toml
+[auth]
+method = "etp-rt"
+token = "your-etp-refresh-token"
+```
+
+```toml
+[auth]
+method = "anonymous"
+```
+
+
+### [connection] - 
+
+```
+[connection]
+proxy = none
+retries = 0
+```
+
