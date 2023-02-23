@@ -39,5 +39,3 @@ merge = "audio"
 resolution = "720p"
 skip_existing = true
 ```
-
-##
