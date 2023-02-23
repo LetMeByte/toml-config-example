@@ -6,12 +6,14 @@
 <!-- Locales -->
 <!-- Output -->
 
-A structural Overview
+## A structural Overview
 
 ```toml
 # # crunchy-cli.example.conf
 # # 
-# # DO NOT USE THIS FILE AS IS! COPY THIS FILE TO 'crunchy-cli.conf' AND ADJUST THE VALUES TO YOUR NEEDS!
+# # Copy this file to 'crunchy-cli.conf' and
+# # configure it according to the
+# # configuration reference
 
 [auth]
 method = "credentials"
