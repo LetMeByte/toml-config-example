@@ -50,7 +50,9 @@ skip_existing = true
 
 **You can download free content even without logging in, but you need a premium account to download premium content.**
 
-Login using your account credentials:
+*The Crunchy-Labs Team does not endorse piracy, what you do with downloaded content is completely up to you!*
+
+Authenticate using your account credentials:
 
 ```toml
 [auth]
@@ -61,7 +63,7 @@ password = "iLOVEanime123"
 
 <hr>
 
-Login using a refresh token:
+Authenticate using a refresh token:
 
 ```toml
 [auth]
@@ -69,7 +71,11 @@ method = "etp-rt"
 token = "your-etp-refresh-token"
 ```
 
+To extract a refresh token from your browser, you can use an addon like [cookies.txt](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/). Log into your account, then use the addon to extract the cookie called `etp_rt`. I will look like this: `306ce014-961f-49f5-bb17-5e1451246d4c`
+
 <hr>
+
+Don't log in
 
 ```toml
 [auth]
