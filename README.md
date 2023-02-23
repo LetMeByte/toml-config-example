@@ -48,7 +48,7 @@ skip_existing = true
 
 **You can download free content without logging in, but you need a premium account to download premium content.**
 
-Authenticate using your account credentials:
+### Authenticate using your account credentials:
 
 ```toml
 [auth]
@@ -59,7 +59,7 @@ password = "iLOVEanime123"
 
 <hr>
 
-Authenticate using a refresh token:
+### Authenticate using a refresh token:
 
 ```toml
 [auth]
@@ -71,7 +71,7 @@ To extract a refresh token from your browser, you can use an addon like [cookies
 
 <hr>
 
-Don't authenticate at all:
+### No authentication:
 
 ```toml
 [auth]
