@@ -67,7 +67,7 @@ method = "etp-rt"
 token = "your-etp-refresh-token"
 ```
 
-To extract a refresh token from your browser, you can use an addon like [cookies.txt](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/). Log into your account, then use the addon to extract the cookie called `etp_rt`. I will look like this: `306ce014-961f-49f5-bb17-5e1451246d4c`
+To extract a refresh token from your browser, you can use an addon like [cookies.txt](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/). Log into your account, then use the addon to extract the cookie called `etp_rt`. It will look like this: `306ce014-961f-49f5-bb17-5e1451246d4c`
 
 <hr>
 
