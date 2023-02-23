@@ -44,13 +44,9 @@ skip_existing = true
 ```
 
 
-## Detailed Configuration
+## [auth] - Methods of Authentication
 
-### [auth] - Methods of Authentication
 
-**You can download free content even without logging in, but you need a premium account to download premium content.**
-
-*The Crunchy-Labs Team does not endorse piracy, what you do with downloaded content is completely up to you!*
 
 Authenticate using your account credentials:
 
@@ -75,7 +71,7 @@ To extract a refresh token from your browser, you can use an addon like [cookies
 
 <hr>
 
-Don't log in
+Don't log in at all:
 
 ```toml
 [auth]
@@ -83,11 +79,17 @@ method = "anonymous"
 ```
 
 
-### [connection] - 
+## [connection] - 
 
 ```
 [connection]
 proxy = none
 retries = 0
 ```
+
+
+
+**You can download free content without logging in, but you need a premium account to download premium content.**
+
+*The Crunchy-Labs Team does not endorse piracy, what you do with downloaded content is completely up to you!*
 
