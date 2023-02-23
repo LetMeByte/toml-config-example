@@ -48,7 +48,9 @@ skip_existing = true
 
 ### [auth] - Methods of Authentication
 
+**You can download free content even without logging in, but you need a premium account to download premium content.**
 
+Login using your account credentials:
 
 ```toml
 [auth]
@@ -57,11 +59,17 @@ email = "spam@animail.jp"
 password = "iLOVEanime123"
 ```
 
+<hr>
+
+Login using a refresh token:
+
 ```toml
 [auth]
 method = "etp-rt"
 token = "your-etp-refresh-token"
 ```
+
+<hr>
 
 ```toml
 [auth]
