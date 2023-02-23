@@ -44,7 +44,7 @@ skip_existing = true
 ```
 
 
-## [auth] - Methods of Authentication
+## [auth] Methods of Authentication
 
 **You can download free content without logging in, but you need a premium account to download premium content.**
 
@@ -79,8 +79,15 @@ method = "anonymous"
 
 ```toml
 [connection]
-proxy = none
-retries = 0
+## 
+
+# proxy = false ## default, used to override environment value?
+# proxy = "http://proxy.host:8080" ## HTTP proxy
+# proxy = "https://proxy.host:8080` ## HTTPS proxy
+proxy = "socks5://proxy.host:8080" ## 
+
+
+# retries = 1 ## 0 is default, maximum is 10. 
 ```
 
 *The Crunchy-Labs Team does not endorse piracy, what you do with downloaded content is completely up to you!*
