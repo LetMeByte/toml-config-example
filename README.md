@@ -94,11 +94,23 @@ method = "anonymous"
 # proxy = "socks5://proxy.host:8080"
 ```
 
-## [locale]
+## [locale] Audio & Subtitles
+
+The default locale for **audio** is `ja-JP`. The default locale for **subtitles** is your system locale. Should your system locale not be supported by Crunchyroll or not be available for the content you are tyring to download, the `en-US` locale will be used.
+<!-- Fallback Handling? -->
 
 ```toml
+[locale]
+audio = "ja-JP"
+subtitle = "de-DE"
+# keep_subs = false
 
+[locale.archive]
+audio = [ "ja-JP", "en-US" ]
+keep_subs = true
 
+[locale.download]
+audio = "en-US"
 ```
 
 *The Crunchy-Labs Team does not endorse piracy, what you do with downloaded content is completely up to you!*
